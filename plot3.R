@@ -18,7 +18,7 @@ with(pc, plot(DateTime, Sub_metering_1, type="n", ylab ="Energy sub metering", x
 with(pc, lines(DateTime, Sub_metering_1, col="black"))
 with(pc, lines(DateTime, Sub_metering_2, col="red"))
 with(pc, lines(DateTime, Sub_metering_3, col="blue"))
-legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"), pch = '__')
+legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"), lwd = 1)
 
 
 # Close the device
